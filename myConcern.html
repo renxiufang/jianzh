@@ -1,27 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>建筑圈首页</title>
+        <title>我的关注</title>
         <link href="css/public.css" " rel="stylesheet" type="text/css">
-		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-        <script type="text/javascript">
-			$(function(){
-			  $(".zf-btn").click(function(){
-				  $("#pop-overlay").css("display","block");
-				  $("#pop-box").css("display","block");
-			  });
-			  $(".pop-box-close").click(function(){
-				  $("#pop-overlay").css("display","none");
-				  $("#pop-box").css("display","none");
-			  });
-			  $(".p-zf-btn").click(function(){
-				  $("#pop-overlay").css("display","none");
-				  $("#pop-box").css("display","none");
-			  });
-			});
-		</script>
     </head>
 	<body>
 		<!--头部 start-->
@@ -29,7 +11,7 @@
 			<div class="topBar">
 				<div class="topBox">
 					<div class="topLeft">
-						<a href="#" target="_blank">游客</a>，上午好，欢迎来到建筑圈
+						<a href="#" target="_blank">杨生</a>，上午好，欢迎来到建筑圈
 					</div>
 					<div class="topRight">
 						<a href="#" target="_blank">首页</a>
@@ -41,7 +23,7 @@
 			</div>
 			<div class="logoBox">
 				<div class="logoLeft">
-					<a href="index.html" target="_self">
+					<a href="#" target="_self">
 						<img src="images/logo.png">
 					</a>
 					<img class="slogan" src="images/slogan.png" >
@@ -51,32 +33,34 @@
 					<a href="#" class="go" target="_self" ></a>
 				</div>
 			</div>
-			<div class="menuBar">
-			<div class="navBox">
-				<div class="menuBox">
-					<ul class="menu">
-						<li class="menuItem"><a class="menuItem_1" href="index.html" target="_blank">资讯</a></li>
-						<li class="menuItem"><a href="jcfl.html" >建材</a></li>
-						<li class="menuItem"><a href="snsjxq.html" >室内设计、建筑师需求</a></li>
-						<li class="menuItem"><a href="jsfxq.html" >建设方需求</a></li>
-						<li class="menuItem"><a href="jccjxq.html" >建材厂家需求</a></li>
-						<li class="menuItem"><a href="sgfxq.html" >施工方需求</a></li>
-						<li class="menuItem"><a href="forum.html" target="_blank">论坛</a></li>
-						<li class="menuItem"><a href="caoshai.html" >槽晒吧</a></li>
-						<li class="menuItem fl"><a href="shaixuan.html" ><div class="fl">建筑师</div><div class="triangle fl" href="#"></div></a></li>
+			<div class="menuBarList">
+			<div class="navBoxList">
+				<div class="menuBoxList">
+					<ul class="menuList">
+						<li class="menuItemList"><a class="menuItem_1" href="#" >资讯</a></li>
+						<li class="menuItemList"><a href="jcfl.html" >建材</a></li>
+						<li class="menuItemList"><a href="snsjxq.html" >室内设计、建筑师需求</a></li>
+						<li class="menuItemList"><a href="jsfxq.html" >建设方需求</a></li>
+						<li class="menuItemList"><a href="jccjxq.html" >建材厂家需求</a></li>
+						<li class="menuItemList"><a href="sgfxq.html" >施工方需求</a></li>
+						<li class="menuItemList"><a href="forum.html" >论坛</a></li>
+						<li class="menuItemList"><a href="caoshai.html" >槽晒吧</a></li>
+						<li class="menuItemList fl"><a href="shaixuan.html" ><div class="fl">建筑师</div><div class="triangle fl" href="#"></div></a></li>
 					</ul>
-					
 				</div>
-				<ul class="login">
-					<li><a class="login_1" href="login.html" target="_blank">登录</a></li>
-					<li><a href="register-individual.html">注册</a></li>
+				<ul class="loginList">
+					<!-- <li><a class="login_1" href="login.html" target="_blank">登录</a></li>
+					<li><a href="#">注册</a></li> -->
+					<li class="loginNameList"><a class="fl" href="#" target="_blank">杨生</a></li>
+					<li class="loginArrowList"><a href="#"></a></li>
 				</ul>
 				</div>
-				<div class="bar">
-					<div class="fbContainer">
-						<ul class="fbBox">
-							<li class="fbzx"><a class="pen"></a><a href="fbzx.html">发布资讯</a></li>
-							<li><a class="advice"></a><a href="fbyj.html">发表意见和建议</a></li>
+				<div class="barList">
+					<div class="fbContainerList">
+						<ul class="fbBoxList">
+							<li class="fbList-red"><a href="myConcern.html" target="_self">我的关注</a></li>
+							<li class="fbList"><a href="myFollowers.html" target="_self">我的粉丝</a></li>
+							<li class="fbList"><a href="myMutualfollow.html" target="_self">互相关注</a></li>
 						</ul>
 					</div>
 				</div>
@@ -86,64 +70,59 @@
 		<div class="main">
 			<!--mainLeft start-->
 			<div class="mainLeft">
-				<div class="mainItem">
-					<div class="mainTitle"><a class="dot"></a><a href="news.html" target="_blank">清凉一夏 办公空间精品装修全攻略</a></div>
-					<ul class="mainPic"><li class="pic_1"><img src="images/main_1_1.png"></li><li><img src="images/main_1_2.png"></li></><li><img src="images/main_1_3.png"></li></><li><img src="images/main_1_4.png"></li>
-					</ul>
-					<ul class="mainInfo">
-						<li class="name">建筑圈媒体</li>
-						<li class="comment"><a class="speech"></a><a href="#">评论：</a><a>52</a></li>
-						<li><a class="view"></a><a href="#">300</a></li>
-						<li class="time"><a >30分钟前</a></li>
-					</ul>
+				<div class="mainLeftTitleLine">
+					<div class="mainLeftTitle">我的关注</div>
+					<div class="mainLeftR">256</div>
 				</div>
-				<div class="mainItem">
-					<div class="mainTitle"><a class="dot"></a><a href="news.html" target="_blank">河北投资90亿建北京新机场 拟打造京津冀机场群</a></div>
-					<ul class="mainPic"><li class="pic_big"><img src="images/main_2.png"></li></ul>
-					<ul class="mainInfo">
-							<li class="name">王建1978</li>
-							<li class="comment"><a class="speech"></a><a href="#">评论：</a><a>52</a></li>
-							<li><a class="view"></a><a href="#">300</a></li>
-							<li class="time"><a>35分钟前</a></li>
-					</ul>
+				<div style="margin-left:5px;">
+				<div class="feedItem">
+						<div class="userPic fl">
+							<a><img src="images/linxi.png"></a>
+							<ul class="">
+								<li><a class="fl">粉丝<span>208</span></a><a class="follow" href="#"></a></li>
+								<li>关注<span>159</span></li>
+								<li><a href="#" target="_blank" class="mail">私信</a></li>
+								<li><a href="#" target="_blank" class="chat">私聊</a></li>
+							</ul>
+						</div>
+						<div class="feedFrame">
+							<div class="minute fr"><a>5分钟前</a><a class="minute_r_arrow" href="#"></a></div>
+							<div class="userTitle">
+								<a class="userName fl">林兮</a>
+								<ul class="userInfo fl">
+									<li><a>建筑设计师</a></li>
+									<li><a class="userAge">21岁</a></li>
+									<li><a class="userView">1125次</a></li>	
+								</ul>
+							</div>
+							<div class="feedText">
+								<p>我发誓阳台真不是我剁馅震塌的！<img src="images/cry.png"></p>
+							</div>
+							<div class="feedLineBar">
+								<ul class="feedLine">
+									<li class="line_like">
+										<span class="pos"><i class="like fl"></i><em class="fl">86</em></span>
+									</li>
+									<li  class="line_transmit">
+										<span class="pos"><i class="transmit fl"></i><em class="fl">19</em></span>
+									</li>
+									<li class="line_comt">
+										<span class="pos"><i class="comt fl"></i><em class="fl">36</em></span>
+									</li>
+									<li class="line_star">
+										<span class="pos"><i class="star fl"></i><em class="fl">19</em></span>
+									</li>
+								</ul>
+							</div>
+						</div>
 				</div>
-				<div class="mainItem">
-					<div class="mainTitle"><a class="dot"></a><a href="news.html" target="_blank">世界最大黔中水利枢纽龙场渡槽拱圈吊装完成</a></div>
-					<ul class="mainPic"><li class="pic_none_1"></li><li class="pic_none"></li><li class="pic_none"></li><li class="pic_none"></li></ul>
-					<ul class="mainInfo">
-							<li class="name">设计汪</li>
-							<li class="comment"><a class="speech"></a><a href="#">评论：</a><a>52</a></li>
-							<li><a class="view"></a><a href="#">300</a></li>
-							<li class="time"><a>39分钟前</a></li>
-					</ul>
 				</div>
-				<div class="mainItem">
-					<div class="mainTitle"><a class="dot"></a><a href="news.html" target="_blank">曼谷“调皮 有趣”充满异国情调的咖啡厅设计</a></div>
-					<ul class="mainPic"><li class="pic_1"><img src="images/main_4_1.png"></li><li><img src="images/main_4_2.png"></li></><li></li></><li></li></ul>
-					<ul class="mainInfo">
-							<li class="name">建筑圈媒体</li>
-							<li class="comment"><a class="speech"></a><a href="#">评论：</a><a>52</a></li>
-							<li><a class="view"></a><a href="#">300</a></li>
-							<li class="time"><a>42分钟前</a></li>
-					</ul>
-				</div>
-				<div class="mainItem">
-					<div class="mainTitle"><a class="dot"></a><a href="news.html" target="_blank">太古酒店的第三个“落脚地”成都 博舍品牌酒店</a></div>
-					<ul class="mainPic"><li class="pic_1"><img src="images/main_5_1.png"></li><li><img src="images/main_5_2.png"></li></><li><img src="images/main_5_3.png"></li></><li></li></ul>
-					<ul class="mainInfo">
-							<li class="name">建筑圈媒体</li>
-							<li class="comment"><a class="speech"></a><a href="#">评论：</a><a>52</a></li>
-							<li><a class="view"></a><a href="#">300</a></li>
-							<li class="time"><a>51分钟前</a></li>
-					</ul>
-				</div>
-				<div class="mainMoreBar"><a class="mainMore" href="#"></a></div>
 			</div><!--mainLeft end-->
 			<!--mainRight start-->
 			<div class="mainRight">
 				<div class="hotNews">
 					<dl class="news">
-						<dt>热点新闻</dt>
+						<dt>热门新闻</dt>
 						<dd><a class="sequence_red">1</a><a href="#" target="_blank">地下渗漏：“隐形炸弹”危及建筑安全</a></dd>
 						<dd><a class="sequence_red">2</a><a href="#" target="_blank">2010上海世博会总规划师吴志强：从BIM到CIM</a></dd>
 						<dd><a class="sequence_red">3</a><a href="#" target="_blank">133个足球场大小的郑州机场二期综合换乘中心</a></dd>
@@ -197,52 +176,6 @@
 					<div class="comtNum">当前评论数：<span>281</span></div>
 					<div class="feedItem">
 						<div class="userPic fl">
-							<a><img src="images/nangongyan.png"></a>
-							<ul class="">
-								<li><a class="fl">粉丝<span>208</span></a><a class="follow" href="#"></a></li>
-								<li>关注<span>159</span></li>
-								<li><a href="#" target="_blank" class="mail">私信</a></li>
-								<li><a href="#" target="_blank" class="chat">私聊</a></li>
-							</ul>
-						</div>
-						<div class="feedFrame">
-							<div class="minute fr"><a>5分钟前</a><a class="minute_r_arrow" href="#"></a></div>
-							<div class="userTitle">
-								<a class="userName fl">南宫雁</a>
-								<ul class="userInfo fl">
-									<li><a>建筑设计师</a></li>
-									<li><a class="userAge">23岁</a></li>
-									<li><a class="userView">8765次</a></li>	
-								</ul>
-							</div>
-							<div class="feedText">
-								<p>赞一个！</p>
-								<div class="zf-box">
-									<a class="zf-name" href="#">@甜甜圈</a>
-									<div class="zf-text">全案设计师是目前设计师必要职业发展方向：如何满意客户最终的需求、实现客户及设计师利益的最大化和双赢，阐述软硬装同步的规划和落地执行。</div>
-								</div>
-   								
-							</div>
-							<div class="feedLineBar">
-								<ul class="feedLine">
-									<li class="line_like">
-										<span class="pos"><i class="like fl"></i><em class="fl">86</em></span>
-									</li>
-									<li  class="line_transmit">
-										<span class="pos zf-btn"><i class="transmit fl"></i><em class="fl">19</em></span>
-									</li>
-									<li class="line_comt">
-										<span class="pos"><i class="comt fl"></i><em class="fl">36</em></span>
-									</li>
-									<li class="line_star">
-										<span class="pos"><i class="star fl"></i><em class="fl">19</em></span>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="feedItem">
-						<div class="userPic fl">
 							<a><img src="images/linxi.png"></a>
 							<ul class="">
 								<li><a class="fl">粉丝<span>208</span></a><a class="follow" href="#"></a></li>
@@ -270,7 +203,7 @@
 										<span class="pos"><i class="like fl"></i><em class="fl">86</em></span>
 									</li>
 									<li  class="line_transmit">
-										<span class="pos zf-btn"><i class="transmit fl"></i><em class="fl">19</em></span>
+										<span class="pos"><i class="transmit fl"></i><em class="fl">19</em></span>
 									</li>
 									<li class="line_comt">
 										<span class="pos"><i class="comt fl"></i><em class="fl">36</em></span>
@@ -311,7 +244,7 @@
 										<span class="pos"><i class="like fl"></i><em class="fl">79</em></span>
 									</li>
 									<li  class="line_transmit">
-										<span class="pos zf-btn"><i class="transmit fl"></i><em class="fl">17</em></span>
+										<span class="pos"><i class="transmit fl"></i><em class="fl">17</em></span>
 									</li>
 									<li class="line_comt">
 										<span class="pos"><i class="comt fl"></i><em class="fl">22</em></span>
@@ -352,7 +285,7 @@
 										<span class="pos"><i class="like fl"></i><em class="fl">25</em></span>
 									</li>
 									<li  class="line_transmit">
-										<span class="pos zf-btn"><i class="transmit fl"></i><em class="fl">25</em></span>
+										<span class="pos"><i class="transmit fl"></i><em class="fl">25</em></span>
 									</li>
 									<li class="line_comt">
 										<span class="pos"><i class="comt fl"></i><em class="fl">25</em></span>
@@ -447,31 +380,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="pop-overlay" id="pop-overlay"><div>
-		<div class="pop-box" id="pop-box">
-			<div class="pop-box-title">转发评论</div>
-			<div class="pop-box-close" id="pop-box-close"><a class="p-close-icon"></a></div>
-			<div class="pop-box-inner">
-				<div class="pop-box-wrap">
-					<div class="pop-zf-original">
-						<span class="zf-o-text"><a class="zf-o-name" href="#" target="_blank">@甜甜圈</a>：全案设计师是目前设计师必要职业发展方向：如何满足客户的最终...</span>
-					</div>
-					<div class="pop-zf-feed">
-						<div class="p-input">
-							<textarea class="p-txt-input" placeholder="写下你的转发理由"></textarea>
-						</div>
-						<div class="p-bottom">
-							<div class="p-label fl">
-								<input type="checkbox">
-								<span>同时评论给  甜甜圈</span>
-							</div>
-							<div class="p-btn fr">
-								<a class="p-zf-btn" id="p-zf-btn">转发</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 	</body>
 </html>

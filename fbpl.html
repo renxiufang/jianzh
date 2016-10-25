@@ -1,27 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>建筑圈首页</title>
         <link href="css/public.css" " rel="stylesheet" type="text/css">
-		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-        <script type="text/javascript">
-			$(function(){
-			  $(".zf-btn").click(function(){
-				  $("#pop-overlay").css("display","block");
-				  $("#pop-box").css("display","block");
-			  });
-			  $(".pop-box-close").click(function(){
-				  $("#pop-overlay").css("display","none");
-				  $("#pop-box").css("display","none");
-			  });
-			  $(".p-zf-btn").click(function(){
-				  $("#pop-overlay").css("display","none");
-				  $("#pop-box").css("display","none");
-			  });
-			});
-		</script>
     </head>
 	<body>
 		<!--头部 start-->
@@ -197,52 +179,6 @@
 					<div class="comtNum">当前评论数：<span>281</span></div>
 					<div class="feedItem">
 						<div class="userPic fl">
-							<a><img src="images/nangongyan.png"></a>
-							<ul class="">
-								<li><a class="fl">粉丝<span>208</span></a><a class="follow" href="#"></a></li>
-								<li>关注<span>159</span></li>
-								<li><a href="#" target="_blank" class="mail">私信</a></li>
-								<li><a href="#" target="_blank" class="chat">私聊</a></li>
-							</ul>
-						</div>
-						<div class="feedFrame">
-							<div class="minute fr"><a>5分钟前</a><a class="minute_r_arrow" href="#"></a></div>
-							<div class="userTitle">
-								<a class="userName fl">南宫雁</a>
-								<ul class="userInfo fl">
-									<li><a>建筑设计师</a></li>
-									<li><a class="userAge">23岁</a></li>
-									<li><a class="userView">8765次</a></li>	
-								</ul>
-							</div>
-							<div class="feedText">
-								<p>赞一个！</p>
-								<div class="zf-box">
-									<a class="zf-name" href="#">@甜甜圈</a>
-									<div class="zf-text">全案设计师是目前设计师必要职业发展方向：如何满意客户最终的需求、实现客户及设计师利益的最大化和双赢，阐述软硬装同步的规划和落地执行。</div>
-								</div>
-   								
-							</div>
-							<div class="feedLineBar">
-								<ul class="feedLine">
-									<li class="line_like">
-										<span class="pos"><i class="like fl"></i><em class="fl">86</em></span>
-									</li>
-									<li  class="line_transmit">
-										<span class="pos zf-btn"><i class="transmit fl"></i><em class="fl">19</em></span>
-									</li>
-									<li class="line_comt">
-										<span class="pos"><i class="comt fl"></i><em class="fl">36</em></span>
-									</li>
-									<li class="line_star">
-										<span class="pos"><i class="star fl"></i><em class="fl">19</em></span>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="feedItem">
-						<div class="userPic fl">
 							<a><img src="images/linxi.png"></a>
 							<ul class="">
 								<li><a class="fl">粉丝<span>208</span></a><a class="follow" href="#"></a></li>
@@ -270,7 +206,7 @@
 										<span class="pos"><i class="like fl"></i><em class="fl">86</em></span>
 									</li>
 									<li  class="line_transmit">
-										<span class="pos zf-btn"><i class="transmit fl"></i><em class="fl">19</em></span>
+										<span class="pos"><i class="transmit fl"></i><em class="fl">19</em></span>
 									</li>
 									<li class="line_comt">
 										<span class="pos"><i class="comt fl"></i><em class="fl">36</em></span>
@@ -311,7 +247,7 @@
 										<span class="pos"><i class="like fl"></i><em class="fl">79</em></span>
 									</li>
 									<li  class="line_transmit">
-										<span class="pos zf-btn"><i class="transmit fl"></i><em class="fl">17</em></span>
+										<span class="pos"><i class="transmit fl"></i><em class="fl">17</em></span>
 									</li>
 									<li class="line_comt">
 										<span class="pos"><i class="comt fl"></i><em class="fl">22</em></span>
@@ -352,7 +288,7 @@
 										<span class="pos"><i class="like fl"></i><em class="fl">25</em></span>
 									</li>
 									<li  class="line_transmit">
-										<span class="pos zf-btn"><i class="transmit fl"></i><em class="fl">25</em></span>
+										<span class="pos"><i class="transmit fl"></i><em class="fl">25</em></span>
 									</li>
 									<li class="line_comt">
 										<span class="pos"><i class="comt fl"></i><em class="fl">25</em></span>
@@ -447,31 +383,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="pop-overlay" id="pop-overlay"><div>
-		<div class="pop-box" id="pop-box">
-			<div class="pop-box-title">转发评论</div>
-			<div class="pop-box-close" id="pop-box-close"><a class="p-close-icon"></a></div>
-			<div class="pop-box-inner">
-				<div class="pop-box-wrap">
-					<div class="pop-zf-original">
-						<span class="zf-o-text"><a class="zf-o-name" href="#" target="_blank">@甜甜圈</a>：全案设计师是目前设计师必要职业发展方向：如何满足客户的最终...</span>
-					</div>
-					<div class="pop-zf-feed">
-						<div class="p-input">
-							<textarea class="p-txt-input" placeholder="写下你的转发理由"></textarea>
-						</div>
-						<div class="p-bottom">
-							<div class="p-label fl">
-								<input type="checkbox">
-								<span>同时评论给  甜甜圈</span>
-							</div>
-							<div class="p-btn fr">
-								<a class="p-zf-btn" id="p-zf-btn">转发</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 	</body>
 </html>

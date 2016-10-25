@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>建材-厂家主页</title>
+        <link href="css/public.css" " rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+			  $(".loginArrow").click(function(){
+				  $(".navList").slideDown('fast').show(); //Drop down the subnav on click
+
+		      $(".navList").parent().hover(function(){
+			      $(this).parent().find(".navList").slideUp('fast');
+			  });
+			  });
+			  $(".del").click(function(){
+				  $("#pop-overlay").css("display","block");
+				  $("#pop-box-del").css("display","block");
+			  });
+			  $(".pop-box-close").click(function(){
+				  $("#pop-overlay").css("display","none");
+				  $("#pop-box-del").css("display","none");
+			  });
+			  $(".p-cancel-btn").click(function(){
+				  $("#pop-overlay").css("display","none");
+				  $("#pop-box-del").css("display","none");
+			  });
+			  $(".p-yes-btn").click(function(){
+				  $("#pop-overlay").css("display","none");
+				  $("#pop-box-del").css("display","none");
+			  });
+			  $(".zf-btn").click(function(){
+				  $("#pop-overlay").css("display","block");
+				  $("#pop-box-zf").css("display","block");
+			  });
+			  $(".pop-box-close").click(function(){
+				  $("#pop-overlay").css("display","none");
+				  $("#pop-box-zf").css("display","none");
+			  });
+			  $(".p-zf-btn").click(function(){
+				  $("#pop-overlay").css("display","none");
+				  $("#pop-box-zf").css("display","none");
+			  });
+			});
+		</script>
+    </head>
+	<body>
+		<!--头部 start-->
+		<div class="header">
+			<div class="topBar">
+				<div class="topBox">
+					<div class="topLeft">
+						<a href="#" target="_blank">杨生</a>，上午好，欢迎来到建筑圈
+					</div>
+					<div class="topRight">
+						<a href="#" target="_blank">首页</a>
+						<a href="#" target="_blank">关注我们</a>
+						<a href="#" target="_blank">客户服务</a>
+						<a class="top_last" href="#" target="_blank">网站导航</a>
+					</div>
+				</div>
+			</div>
+			<div class="logoBox">
+				<div class="logoLeft">
+					<a href="#" target="_self">
+						<img src="images/logo.png">
+					</a>
+					<img class="slogan" src="images/slogan.png" >
+				</div>
+				<div class="searchBox">
+					<input class="search" type="text" placeholder="输入搜索关键词" >
+					<a href="#" class="go" target="_self" ></a>
+				</div>
+			</div>
+			<div class="menuBarList">
+			<div class="navBoxList">
+				<div class="menuBoxList">
+					<ul class="menuList">
+						<li class="menuItemList"><a class="menuItem_1" href="#" >资讯</a></li>
+						<li class="menuItemList"><a href="jcfl.html">建材</a></li>
+						<li class="menuItemList"><a href="snsjxq.html">室内设计、建筑师需求</a></li>
+						<li class="menuItemList"><a href="jsfxq.html" >建设方需求</a></li>
+						<li class="menuItemList"><a href="jccjxq.html" >建材厂家需求</a></li>
+						<li class="menuItemList"><a href="sgfxq.html" >施工方需求</a></li>
+						<li class="menuItemList"><a href="forum.html" >论坛</a></li>
+						<li class="menuItemList"><a href="caoshai.html" >槽晒吧</a></li>
+						<li class="menuItemList fl"><a href="shaixuan.html" ><div class="fl">建筑师</div><div class="triangle fl" href="#"></div></a></li>
+					</ul>
+					
+				</div>
+				<ul class="loginList">
+					<!-- <li><a class="login_1" href="login.html" target="_blank">登录</a></li>
+					<li><a href="#">注册</a></li> -->
+					<li class="loginNameList"><a class="fl" href="#" target="_blank">杨生</a></li>
+					<li class="loginArrowList"><a class="loginArrow"></a></li>
+					<ul class="navList" id="navList">
+						<li><a href="myNewsList.html">我的内容和主页</a></li>
+						<li><a href="myDemand-new.html">我的需求和项目</a></li>
+						<li><a href="myConcern.html">关注的人和粉丝</a></li>
+						<li><a href="myMessage.html">账号设置</a></li>
+						<li><a href="#">退出</a></li>
+				    </ul>
+				</ul>
+				</div>
+				<div class="barList">
+					<div class="fbContainerList">
+						<ul class="fbBoxList">
+							<li class="fbList-red"><a href="#" target="_self">厂家主页</a></li>
+							<li class="fbList"><a href="jc_cjtc.html" target="_self">厂家图册</a></li>
+							<li class="fbList"><a href="jc_cpxy.html" target="_self">产品选用（含项目实例和细部设计要点/引用图集及CAD详图下载）</a></li>
+							<li class="fbList"><a href="jc_fbyj.html" target="_self">发表意见和建议</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!--头部end-->
+		<!--正文 start-->
+			<!--maintop start-->
+			<div class="banner-wrapper">
+				<div class="banner-bg" style="background-image:url(images/banner-cjzy.png)">
+					<a href="#"></a>
+				</div>
+			</div>
+		<div class="mainJczy">	
+			<div class="zy_header_wrapper">
+				<div class="zy_header_pic">
+					<div class="zy_header_photo"><a href="#"><img src="images/photo-cj.png" style="border:3px solid #fff;box-shadow:0 0 6px #8e8e8e;"></a></div>
+					<ul class="zy_header_tc">
+						<li><a href="#" class="zy_header_tc_arrow_left"></a></li>
+						<li class="zy_header_tc_item"><a href="#"><img src="images/pic-cjtc.png"></a></li>
+						<li class="zy_header_tc_item"><a href="#"><img src="images/pic-cjtc.png"></a></li>
+						<li class="zy_header_tc_item"><a href="#"><img src="images/pic-cjtc.png"></a></li>
+						<li class="zy_header_tc_item"><a href="#"><img src="images/pic-cjtc.png"></a></li>
+						<li class="zy_header_tc_item"><a href="#"><img src="images/pic-cjtc.png"></a></li>
+						<li class="zy_header_tc_item" style="margin-right:0;"><a href="#"><img src="images/pic-cjtc.png"></a></li>
+						<li><a href="#" class="zy_header_tc_arrow_right"></a></li>
+					</ul>
+				</div>
+				<div class="zy_header_info">
+					<div class="zy_header_info_left">
+						<div class="info_mc">
+							<h1>四通公司</h1>
+							<dl class="info_dj"><dt></dt><dd></dd><dd></dd></dl>
+						</div>
+						<p class="info_wz">[河北 石家庄]&nbsp;&nbsp;&nbsp;<a href="#">http//www.jc317.com</a></p>
+					</div>
+					<div class="zy_header_info_right">
+						<dl><dt>3</dt><dd>关注</dd></dl> 
+						<dl><dt>118</dt><dd>粉丝</dd></dl>
+					</div>
+				</div>
+				<div class="zy_header_lable">
+					<ul class="zy_header_lable_left">
+						<li><a href="#"><img src="images/lable_plus.png" style="margin-top:8px;margin-right:5px;float:left;"><p style="line-height:30px;float:left;margin:0;">关注</p></a></li>
+						<li><a href="#"><img src="images/lable_letter.png" style="margin-top:10px;margin-right:5px;float:left;"><p style="line-height:30px;float:left;margin:0;">私信</p></a></li>
+						<li><a href="#"><img src="images/lable_chat.png" style="margin-top:9px;margin-right:5px;float:left;"><p style="line-height:30px;float:left;margin:0;">私聊</p></a></li>
+						<li><a href="#"><img src="images/lable_share.png" style="margin-top:7px;margin-right:5px;float:left;"><p style="line-height:30px;float:left;margin:0;">分享</p></a></li>
+						<li><a href="#"><img src="images/lable_advice.png" style="margin-top:10px;margin-right:5px;float:left;"><p style="line-height:30px;float:left;margin:0;">发表意见和建议</p></a></li>
+					</ul>
+					<div class="zy_header_lable_right"><a>367次</a></div>
+				</div>
+			</div>
+			<div class="zy_main_title_cont">
+				<ul class="zy_main_title">
+					<li><a href="jc_cjzy.html" class="zy_main_title_current">企业简介<img class="zy_menu_hover" src="images/arrowblue-zy.png"></a></li>
+					<li><a href="jc_cjzy_qyzz.html" class="zy_main_title_item">企业证照及荣誉</a></li>
+					<li><a href="jc_cjzy_qywb.html" class="zy_main_title_item">企业微博</a></li>
+					<li><a href="jc_cjzy_qydt.html" class="zy_main_title_item">动态</a></li>
+					<li><a href="jc_cjzy_lxfs.html" class="zy_main_title_item">联系方式</a></li>
+					<li><a href="jc_cjzy_lyb.html" class="zy_main_title_item">留言板（1）</a></li>
+				</ul>
+			</div>
+			<div class="zy_main_title_line"></div>
+			<!--mainbottom start-->
+			<div class="zy_main">
+				<div class="zy_main_left">
+					<p class="zy_main_intro">北京天易门窗幕墙股份有限公司成立于2004年，是一家专业从事建筑门窗、幕墙研发、设计、加工、安装的高新技术企业。具有建筑幕墙工程设计甲级及金属门窗和幕墙施工壹级资质，拥有专利47项，其中发明专利5项。公司拥有国际先进水平的铝合金门窗、单元体幕墙生产线，在业内率先实现流水线作业和数字化生产，年生产能力达200万平米。公司总部生产基地位于河北省香河经济开发区，占地面积200余亩，有独立的办公楼、宿舍楼、厂房和员工休闲、活动场所，目前已在江苏江阴、陕西西安建立了三个生产基地，共有员工1000余人，具有大中专以上学历的专业技术人员及管理人员400余人，其中拥有高级职称20人、中级职称40多人、壹级建造师16人、贰级建造师15人，从业时间超过7年的占总数的50%，在伦敦、迪拜、澳大利亚成立了海外分公司。天易的产品遍布中国上百个大中城市和欧洲、南美、中东、澳洲等20多个国家。
+公司集多年制作、安装建筑幕墙、铝合金门窗之经验，利用行业领先的网络办公管理模式，依托自身扎实的技术和施工实力，结合一流的铝合金门窗、幕墙加工生产设备，提供高质量的幕墙、门窗产品服务。公司产品主要为断桥铝合金、铝木复合门窗、塑钢门窗以及框架幕墙、单元体幕墙，使用欧洲先进的KLEAS设计、生产管理软件，具有领先的设计技术和加工工艺，是建筑门窗幕墙行业节能标准的主要参编单位，获得绿色环保、节能节水建材产品推荐书，与意大利吉斯五金合作开发72系列节能高性能门窗系统，其K值可达1.0 w/(m2.k)以下。公司全面推行6S管理、全面质量管理、全员设备管理，建立了ERP系统和OA系统。与德国旭格、德国海德鲁、意大利阿鲁克等多家系统供应商保持良好的战略合作关系，同时还同坚美铝材、华建铝材、南玻玻璃、圣戈班玻璃、诺托五金、坚朗五金等在内的多家知名材料及五金供应商形成良好的战略合作，并在坚美和华建两家企业开发了多套具有自主知识产权的门窗幕墙系统型材。公司获得国家建设部和国家技术监督局颁发的壹级资质证书和工业产品生产许可证，被国家科技部评为高新技术企业，并通过北京市建委备案、获得产品节能及绿色环保认证证书。</p>
+				</div>
+				<div class="zy_main_right">
+					<div class="Visits">
+						<div class="visitsTitle">最近访客</div>
+						<ul class="visitsPics">
+							<li><a href="#" target="_blank"><img src="images/v_Glimmer.png"></a><a class="visitsName" href="#" target="_blank">Glimmer</a></li>
+							<li><a href="#" target="_blank"><img src="images/v_lx.png"></a><a class="visitsName" href="#" target="_blank">林兮</a></li>
+							<li><a href="#" target="_blank"><img src="images/v_lgg.png"></a><a class="visitsName" href="#" target="_blank">李国光</a></li>
+							<li><a href="#" target="_blank"><img src="images/v_ttq.png"></a><a class="visitsName" href="#" target="_blank">甜甜圈</a></li>
+							<li><a href="#" target="_blank"><img src="images/v_gdg.png"></a><a class="visitsName" href="#" target="_blank">咣当哥</a></li>
+							<li><a href="#" target="_blank"><img src="images/v_jtxy.png"></a><a class="visitsName" href="#" target="_blank">街头夕阳</a></li>
+							<li><a href="#" target="_blank"><img src="images/v_wy.png"></a><a class="visitsName" href="#" target="_blank">汪洋</a></li>
+							<li><a href="#" target="_blank"><img src="images/v_szxx.png"></a><a class="visitsName" href="#" target="_blank">三只小熊</a></li>
+							<li><a href="#" target="_blank"><img src="images/v_bs.png"></a><a class="visitsName" href="#" target="_blank">碧水</a></li>
+							<li><a href="#" target="_blank"><img src="images/v_xt.png"></a><a class="visitsName" href="#" target="_blank">夏天</a></li>					
+						</ul>
+						<div class="visitBar">
+							<a class="fl">最近一周被访问<span>14</span>次</a>
+							<a class="fr" href="#">查看全部</a>
+						</div>
+					</div>
+					<div class="jzqMessage">
+						<img src="images/logo-small.png">
+						<p>建筑师、甲方、建材厂家、施工方及建筑圈相关人士的网上家园，追踪最新行业资讯，搜寻、应用各类建材，发布、欣赏特色建筑作品，发表、分享从业经验，抒发、体会同业感悟，记录、分享人生收获，交到业内朋友、挚友、商友。欢迎加入建筑圈大家庭。</p>
+					</div>
+					<div class="shareTo">
+					<p>分享到:</p>
+						<p class="sns">
+							<a href="#" target="_blank"><img src="images/wechat.png"></a>
+							<a href="#" target="_blank"><img src="images/microblog.png"></a>
+							<a href="#" target="_blank"><img src="images/douban.png"></a>
+							<a href="#" target="_blank"><img src="images/q-zone.png"></a>
+							<a href="#" target="_blank"><img src="images/renren.png"></a>
+							<a href="#" target="_blank"><img src="images/tencent.png"></a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--mainRight end-->
+		</div>
+		<!--正文 end-->
+		<div class="footer" style="top:440px;">
+			<div class="ftBox">
+				<div class="ftLeft"><img src="images/logo-down.png"></div>
+				<div class="ftRight">
+						<div class="ft_menu">
+							<a href="#" target="_blank">建筑圈</a>
+							<a href="#" target="_blank">关于我们</a>
+							<a href="#" target="_blank">联系我们</a>
+							<a href="#" target="_blank">客户服务</a>
+							<a href="#" target="_blank">网站地图</a>
+							<a class="ft_last" href="#" target="_blank">意见反馈</a>
+						</div>
+						<p>Copyright ©injz.cn. All Rights Reserved. 京ICP证080197号 京公网安备110000000157号</p>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
